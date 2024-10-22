@@ -1,11 +1,5 @@
-/* 
-Write a isValidPassword function 
-It accepts 2 arguments: password and username 
-Password must: 
-- be atleast 8 characters 
-- cannot contain spaces 
-- cannot contain the username 
-If all requirements are met, return true, 
-otherwise return false  
-*/
+// Let the user enter username & password, the assignment didnt ask for this but I assumed it is needed.
+
+let username = prompt("Enter username:");
+let password = prompt("Enter password:");
 
