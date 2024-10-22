@@ -11,6 +11,8 @@ if (isValidPassword(password, username)) {
     console.log("Password is invalid.");
 }
 
+// if statements for password requirements.
+
 function isValidPassword(password) {
     if (password.length < 8) {
         return false;
