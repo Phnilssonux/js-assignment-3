@@ -10,3 +10,19 @@ if (isValidPassword(password, username)) {
 } else {
     console.log("Password is invalid.");
 }
+
+function isValidPassword(password) {
+    if (password.length < 8) {
+        return false;
+    }
+    
+    if (password.includes(' ')) {
+        return false;
+    }
+    
+    if (password.includes(username)) {
+        return false;
+    }
+
+    return true;
+}
